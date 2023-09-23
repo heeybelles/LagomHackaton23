@@ -1,0 +1,444 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+    <title>Simulado - Lagom</title>
+    <nav class="navbar navbar-expand-lg navbar navbar-light bg-light fixed-top">
+        <a class="navbar-brand mb-0 h1" href="telaprincipal.html"><span class="text-warning">Lagom</a>
+         
+          <a href="perfil.html"><img src="img/user.jpg" style="width: 50px;height:50px ;border-radius: 30px;margin-left: 1100px;cursor: pointer;" alt="Perfil"></a></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar" aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+         
+        </button>
+      </div>
+    </nav><br>
+    
+<div class="color">
+    <section class="section">
+     <div class="container0">
+       <div class="content">
+         <br>
+        
+         
+      
+       <center>
+       <img src="img/lagom.png" class="logo" alt="img">
+       </center>
+      </section>
+    </div>
+      </div>
+      <br><br><br> <br><br><br>
+    <style>
+        
+        .container {
+            
+            width: 60%;
+            padding: 20px;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+            display: none;
+            border: 2px;
+            border: 3px solid  rgb(183, 183, 10);
+            border-radius: 10px;
+           
+           
+        }
+
+        button {
+            margin-top: 10px;
+        }
+        body{
+    margin: 0;
+    padding: 0;
+
+}
+
+  .color{
+    background-color: #2A2E34;
+    height: 500px;
+}
+.texto{
+    margin-left: 700px;
+    margin-top: -250px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.logo{
+    
+    width: 400px;
+    height: 400px;
+    margin-top: -10px;
+}.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h3{
+  color: white;
+  margin-top: -80px;
+  font-size: 50px;
+  font-family: 'Marko One', serif;
+}
+button{
+    width: 120px;
+    height: 35px;
+    margin-top: 40px;
+    font-size: 12px;
+    background-color: #202022;
+    color: white;
+    text-transform: none;
+    cursor: pointer;
+    outline: none;
+    border: black;
+    border-radius: 8px;
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: rgb(183, 155, 13);
+}
+.next{
+    width: 100px;
+    height: 30px;
+    margin-top: 40px;
+    font-size: 12px;
+    background-color: rgb(100, 18, 18);
+    color: white;
+    text-transform: none;
+    cursor: pointer;
+    outline: none;
+    border: black;
+}
+.next:hover{
+    transform: scale(1.1);
+    background-color: rgb(0, 0, 0);
+}
+.linha{
+    width: 290px;
+    height: 8px;
+    margin-top: 1px;
+}
+.img1{
+    width: 400px;
+    height: 400px;
+    margin-left: 290px;
+    margin-top: -20px;
+}  footer{
+    width: 100%;
+    height: 30px;
+    background-color: #202022;
+    color: white;
+    
+}
+
+
+.texto{
+    margin-left: 700px;
+    margin-top: -250px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+    </style>
+</head>
+
+<body>
+    <br><br>
+    <img src="img/game.png" class="img1" alt="img">
+          
+      <div class="texto">
+        <h4 style="color: black;margin-right: 30px;">Simulado</h4>
+             Heey Estudantes!<br> Bora testar os seus conhecimentos?!.
+             
+           
+      </div>
+ <br><br><br.
+   
+    
+       
+    
+         <center>
+         <br><br>
+        
+     <center>  
+    <div class="container">
+      <center>
+       1.Quanto é 10+10 X 10-10?
+        </center><hr>
+        <button><input type="radio" name="question1" class="btnA" id="correct1">100</button><br>
+        <button><input type="radio" name="question1" class="btnA" id="b2">10</button><br>
+        <button><input type="radio" name="question1" class="btnA"  id="b3">25</button><br>
+        <button><input type="radio" name="question1" class="btnA" id="b4">Nenhuma das Alternativas</button><br>
+        <button class="next" onclick="next(1)" id="p1">Próximo</button>
+    </div>
+
+    <div class="container">
+      <center>
+        2. Quem foi Machado de Assis?
+        </center> <hr>
+        <button><input type="radio" name="question2" class="btnA"  id="b5">Autor do livro "O Ateneu"</button><br>
+        <button><input type="radio" name="question2" class="btnA"  id="correct2">Um escritor barsileiro</button><br>
+        <button><input type="radio" name="question2"class="btnA"  id="b7">um cantor brasileiro</button><br>
+        <button><input type="radio" name="question2"class="btnA"  id="b8">Nenhuma das Alternativas</button><br>
+        <button class="next" onclick="next(2)" id="p2">Próximo</button>
+    </div>
+
+    <div class="container">
+      <center>
+       3.O que significa a sigla CO² na tabela períodica?
+        </center><hr>
+        <button><input type="radio" name="question3" class="btnA" id="b9">Magnésio</button><br>
+        <button><input type="radio" name="question3"class="btnA"  id="b10">Rádio</button><br>
+        <button><input type="radio" name="question3" class="btnA" id="b11">Oxigênio</button><br>
+        <button><input type="radio" name="question3" class="btnA" id="correct3">Dióxido de Carbono</button><br>
+        <button onclick="result()" id="e1">Enviar</button>
+    </div>
+     </center>
+      
+      <br><br>
+  
+      
+    <script>
+
+
+document.getElementById("p1").disabled = true;
+
+    document.getElementById("correct1").addEventListener("input", function(event){
+
+    var conteudo = document.getElementById("correct1").value;
+
+    if (conteudo !== null && conteudo !== '') {
+     
+      document.getElementById("p1").disabled = false;
+    } else {
+      
+      document.getElementById("p1").disabled = true;
+    }
+});
+
+
+document.getElementById("p1").disabled = true;
+
+
+    document.getElementById("b2").addEventListener("input", function(event){
+
+    var conteudo = document.getElementById("b2").value;
+
+    if (conteudo !== null && conteudo !== '') {
+      document.getElementById("p1").disabled = false;
+    } else {
+      document.getElementById("p1").disabled = true;
+    }
+});
+
+
+document.getElementById("p1").disabled = true;
+
+
+    document.getElementById("b3").addEventListener("input", function(event){
+
+    var conteudo = document.getElementById("b3").value;
+
+    if (conteudo !== null && conteudo !== '') {
+      document.getElementById("p1").disabled = false;
+    } else {
+      document.getElementById("p1").disabled = true;
+    }
+});
+
+
+document.getElementById("p1").disabled = true;
+
+
+    document.getElementById("b4").addEventListener("input", function(event){
+
+    var conteudo = document.getElementById("b4").value;
+
+    if (conteudo !== null && conteudo !== '') {
+      document.getElementById("p1").disabled = false;
+    } else {
+      document.getElementById("p1").disabled = true;
+    }
+});
+
+
+document.getElementById("p2").disabled = true;
+
+
+    document.getElementById("b5").addEventListener("input", function(event){
+
+    var conteudo = document.getElementById("b5").value;
+
+    if (conteudo !== null && conteudo !== '') {
+      document.getElementById("p2").disabled = false;
+    } else {
+      document.getElementById("p2").disabled = true;
+    }
+});
+
+
+document.getElementById("p2").disabled = true;
+
+
+    document.getElementById("correct2").addEventListener("input", function(event){
+
+    var conteudo = document.getElementById("correct2").value;
+
+    if (conteudo !== null && conteudo !== '') {
+      document.getElementById("p2").disabled = false;
+    } else {
+      document.getElementById("p2").disabled = true;
+    }
+});
+
+document.getElementById("p2").disabled = true;
+
+
+    document.getElementById("b7").addEventListener("input", function(event){
+
+    var conteudo = document.getElementById("b7").value;
+
+    if (conteudo !== null && conteudo !== '') {
+      document.getElementById("p2").disabled = false;
+    } else {
+      document.getElementById("p2").disabled = true;
+    }
+});
+
+
+document.getElementById("p2").disabled = true;
+
+
+    document.getElementById("b8").addEventListener("input", function(event){
+
+    var conteudo = document.getElementById("b8").value;
+
+    if (conteudo !== null && conteudo !== '') {
+      document.getElementById("p2").disabled = false;
+    } else {
+      document.getElementById("p2").disabled = true;
+    }
+});
+
+
+document.getElementById("e1").disabled = true;
+
+
+    document.getElementById("b9").addEventListener("input", function(event){
+
+    var conteudo = document.getElementById("b9").value;
+
+    if (conteudo !== null && conteudo !== '') {
+      document.getElementById("e1").disabled = false;
+    } else {
+      document.getElementById("e1").disabled = true;
+    }
+});
+
+
+document.getElementById("e1").disabled = true;
+
+
+    document.getElementById("b10").addEventListener("input", function(event){
+
+    var conteudo = document.getElementById("b10").value;
+
+    if (conteudo !== null && conteudo !== '') {
+      document.getElementById("e1").disabled = false;
+    } else {
+      document.getElementById("e1").disabled = true;
+    }
+});
+
+
+document.getElementById("e1").disabled = true;
+
+
+    document.getElementById("b11").addEventListener("input", function(event){
+
+    var conteudo = document.getElementById("b11").value;
+
+    if (conteudo !== null && conteudo !== '') {
+      document.getElementById("e1").disabled = false;
+    } else {
+      document.getElementById("e1").disabled = true;
+    }
+});
+
+
+document.getElementById("e1").disabled = true;
+
+
+    document.getElementById("correct3").addEventListener("input", function(event){
+
+    var conteudo = document.getElementById("correct3").value;
+
+    if (conteudo !== null && conteudo !== '') {
+      document.getElementById("e1").disabled = false;
+    } else {
+      document.getElementById("e1").disabled = true;
+    }
+});
+
+
+
+
+
+
+
+       
+        document.getElementsByClassName('container')[0].style.display = "block";
+
+        
+        function next(id) {
+            document.getElementsByClassName('container')[id-1].style.display = "none";
+            document.getElementsByClassName('container')[id].style.display = "block";
+        }
+        
+        function result() {
+            var score = 0;
+            
+            if (document.getElementById('correct1').checked) {
+                score++;
+            }
+            if (document.getElementById('correct2').checked) {
+                score++;
+            }
+            if (document.getElementById('correct3').checked) {
+                score++;
+            }
+            
+            alert("Você acertou + "+ score +"/3")
+             if(score>=3){
+              alert("MB")
+             }
+             
+                
+             if(score==2){
+              alert("B")
+             }
+             else{
+              alert("R")
+
+             }
+               }
+             
+    </script>
+    <br><br>
+    <br><br>
+    <footer>
+      <center><p>@Lagom</p></center>
+     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
